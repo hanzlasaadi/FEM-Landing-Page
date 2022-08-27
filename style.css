@@ -1,8 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+:root {
+  /* ----Colors---- */
+  --clr-primary-500: hsl(243, 87%, 12%);
+  --clr-primary-300: hsl(238, 22%, 44%);
+
+  --clr-accent-500: hsl(224, 93%, 58%);
+  --clr-accent-300: hsl(170, 45%, 43%);
+
+  --clr-neutral-500: hsl(240, 75%, 98%);
+  --clr-neutral-300: hsl(0, 0%, 75%);
+
+  --fc-main-black: #000000;
+  --fc-main-white: #ffffff;
+
+  /* ----Font-Family---- */
+  --ff-OS: "Open Sans", sans-serif;
+  --ff-R: "Raleway", sans-serif;
+
+  --ff-heading: var(--ff-R);
+  --ff-para-primary: var(--ff-OS);
+
+  /* ----Font-Weight---- */
+  --fw-primary: 700;
+  --fw-secondary: 400;
+
+  --fw-head-button: var(--fw-primary);
+  --fw-nav: var(--fw-secondary);
+  --fw-para-lbl-link: var(--fw-secondary);
+
+  /* -----Font-Sizes----- */
+  /* 18px */
+  --fs-200: 1.125rem;
+  /* 20px */
+  --fs-300: 1.25rem;
+  /* 21px */
+  --fs-400: 1.313rem;
+  /* 23px */
+  --fs-500: 1.438rem;
+  /* 24px */
+  --fs-600: 1.5rem;
+  /* 27px */
+  --fs-700: 1.688rem;
+  /* 40px */
+  --fs-800: 2.5rem;
+  /* 47px */
+  --fs-900: 2.938rem;
+
+  --fs-primary-head: var(--fs-800);
+  --fs-secondary-main: var(--fs-200);
+  --fs-section3-main: var(--fs-300);
+
+  --lh-nav-button: var(--fs-400);
+  --lh-heading: var(--fs-900);
+  --lh-para-input: var(--fs-600);
+  --lh-main-sec3: var(--fs-700);
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
